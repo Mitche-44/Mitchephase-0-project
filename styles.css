@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins; sans-serif ;
+}
+
+body{
+     background: #1f242d;
+}
+
+a{
+    text-decoration: none;
+    color: #f1f1f1;
+}
+
+.navbar{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    padding: 25px 9%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    max-width: 100%;
+}
+.logo{
+    font-size: 30px;
+    font-weight: 600;
+    color: #f1f1f1;
+}
+.navbar ul {
+    display: flex;
+
+}
+   
+.navbar ul li{
+    list-style: none;
+    margin-left: 35px;
+}
+.navbar ul li a{
+    font-size: 20px;
+    font-weight: 500;  
+    transition: .5s;
+}
+.navbar ul li:hover a{
+    color: lightgreen;
+}
+.navbar ul li a.active    {
+    color: lightgreen;
+}
+.navbar button{
+    font-size: 20px;
+    font-weight: 500;  
+    transition: .5s;
+    display: inline-block;
+    padding: 10px 30px;
+    background: lawngreen;
+    border: 2px solid lawngreen;
+    border-radius: 40px;
+    box-shadow: 0 0 10px;
+}
+.navbar button:hover {
+    background: transparent;
+    color: white;
+}
+.home{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    padding: 60px 9% 0;
+    color: #f1f1f1;
+
+}
+.home-details h1{
+    font-size: 50px;
+    
+}
+.home-details h2{
+    font-size: 30px;
+    margin-top: -10px;
+}
+.home-details h3{
+    font-size: 20px;
+    margin-top: 20px;
+}
+.home-details p{
+    font-size: 18px;
+    margin-top: 20px;
+}
+.home-details a{
+    display: flex;
+    align-items: center;
+    color: blue;
+    font-size: 30px;
+    margin-top: 30px;
+
+}
+.home-details a:hover{
+    color: orchid;
+}
+
+.image .img-box{
+  width: 32vw;
+  height: 32vw;
+  border-radius: 50%;
+  padding: 5px;
+
+}
+.image .img-box .img-item {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center ;
+    overflow: hidden;
+    border-radius: 50%;
+    align-items: center;
+}
+.image .img-box .img-item img{
+    position: absolute;
+    display: block;
+    width: 85%;
+    object-fit: cover;
+    top: 30px;
+    height: 600px;
+    width: 600px;
+    border-radius: 50%;
+}
+.footer.s-icons{
+     margin-left: 10px;
+     display: flex;
+     align-items: center;
+}
+.footer .s-icons a{  
+     display: inline-flex;
+      padding: 8px;
+      border: 2px solid blue;
+      border-radius: 50%;
+      font-size: 30px;
+      color: blue;
+      margin: 0 8px;
+      margin-top: 30px;
+    
+
+}
+.footer .s-icons a:hover {
+    background: blue;
+    color: black;
+    box-shadow: 0 0 10px;
+
+}
